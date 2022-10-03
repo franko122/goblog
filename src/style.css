@@ -2,6 +2,9 @@
   .slop{ 
     z-index: 222;
   }
+  .sloper{ 
+    z-index: 111;
+  }
   .alison::-webkit-scrollbar{
     display: none;
   }
@@ -780,7 +783,7 @@
         font-size: 10px;
     }
     .fourkey{
-      max-width:80%;
+      max-width:80%; 
       margin: auto;
     }
     .obeyt{
