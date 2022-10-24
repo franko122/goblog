@@ -391,16 +391,7 @@
     .los{    
         position: absolute;
         transform: rotate(-90deg);
-    }
-    .handle{
-        font-size: 18px; 
-        font: bold;
-        float: right;   
-    }
-    .lity{
-        margin-top: -10px;
-        padding: 5px;
-    }
+    } 
     .inputdiv{
         width: 100%;
     }
@@ -695,11 +686,6 @@
         box-shadow: 0px 0px 20px 10px rgb(207, 207, 207); 
         width: 23%; 
         padding:5px;
-    }
-    .handle{
-        margin-left:-61px;
-        font-size:17px;   
-        margin-top:5px;
     } 
     .plets{
         width:20px;
