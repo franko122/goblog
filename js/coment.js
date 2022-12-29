@@ -1,4 +1,5 @@
-let show=document.getElementById("show");
+function coment22() {
+    let show=document.getElementById("show");
 let puts=document.getElementById("puts");
 let now=document.getElementById("now");  
 now.addEventListener("click",()=>{
@@ -8,5 +9,5 @@ now.addEventListener("click",()=>{
         show.style.padding="10px";
         show.style.fontSize="12px" ; 
 });
-
-
+}
+coment22()
