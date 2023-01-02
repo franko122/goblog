@@ -92,7 +92,7 @@
  }
  .sok{
     font-size:8px;
- }
+ } 
  .suld{
        animation-name: sulld;
        animation-duration: 3s;
@@ -174,8 +174,7 @@
     transform:rotate(-90deg);
  }   
  .clear{  
-     overflow: scroll;
-     background-color: rgb(235,235,235);
+     overflow: scroll; 
  }
  .clear::-webkit-scrollbar{
      display: none;
@@ -194,13 +193,21 @@
  }
  .logs{
      background-repeat: no-repeat;
-     background-size: 100% 100%;
-     background-image: url("/img/yell.jpeg");
+     background-size: 100% 100%; 
+     animation-name: cage;  
+     background-image: url("/img/yell.jpeg");  
+     animation-iteration-count: infinite;
+     animation-duration: 7s;
+ }
+ @keyframes cage {
+    10%{     
+        background-image: url("/img/stage.jpeg"); 
+    }   
  }
  .loger{
      background-repeat: no-repeat;
      background-size: 100% 100%;
-     background-image: url("/img/wall.jpeg");
+     background-image: url("/img/stage.jpeg");
  }
  .logins{
      background-repeat: no-repeat;

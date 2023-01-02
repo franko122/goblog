@@ -15,6 +15,7 @@ var tirtys = document.getElementById("tirtys");
 let upergo = document.getElementById("upergo");
 let heads = document.getElementById("heads");
 
+
 upergo.addEventListener("click", () => {
     heads.scrollIntoView()
 })
@@ -58,4 +59,4 @@ wiker.addEventListener("click", () => {
     alam.style.display = "flex"
     tirtys.style.backgroundColor = "black "
     secoo.style.backgroundColor = " #b7b7b7"
-});
+}); 
